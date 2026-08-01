@@ -15,8 +15,8 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Atlas — Hybrid Athlete Handbook",
-    template: "%s — Atlas",
+    default: "Atlas: Hybrid Athlete Handbook",
+    template: "%s: Atlas",
   },
   description:
     "A documentation-first operating manual for long-term hybrid athletic development. Training philosophy, exercise library, decision frameworks, and scientific rationale.",
@@ -31,8 +31,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Jung Yong" }],
   robots: "index, follow",
+  icons: {
+    icon: [{ url: "/images/logos/atlas-icon.svg", type: "image/svg+xml" }],
+  },
   openGraph: {
-    title: "Atlas — Hybrid Athlete Handbook",
+    title: "Atlas: Hybrid Athlete Handbook",
     description:
       "A documentation-first operating manual for long-term hybrid athletic development.",
     type: "website",

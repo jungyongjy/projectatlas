@@ -255,7 +255,7 @@ Evidence should inform decisions rather than replace judgement.
 
 ### Practicality
 
-The best program is the one that can actually be followed.
+The best programme is the one that can actually be followed.
 
 Recommendations must account for:
 
@@ -491,17 +491,17 @@ This document explains **why Atlas exists**.
 
 The remaining documentation defines:
 
-- **01_PRODUCT_SPECIFICATION.md** — what Atlas must do.
-- **02_USER_PROFILE.md** — who Atlas is built for.
-- **03_ATLAS_HANDBOOK.md** — the complete handbook content.
-- **04_TRAINING_SYSTEM.md** — the finalized training methodology.
-- **05_TECHNICAL_ARCHITECTURE.md** — implementation architecture.
-- **06_UI_UX_GUIDELINES.md** — visual and interaction design.
-- **07_COMPONENT_SPECIFICATION.md** — reusable UI components.
-- **08_IMPLEMENTATION_ROADMAP.md** — development phases.
-- **09_CODING_STANDARDS.md** — engineering standards.
-- **10_VERSIONING.md** — release strategy.
-- **11_REVIEW_GUIDELINES.md** — code review and acceptance criteria.
+- **01_PRODUCT_SPECIFICATION.md**: what Atlas must do.
+- **02_USER_PROFILE.md**: who Atlas is built for.
+- **03_ATLAS_HANDBOOK.md**: the complete handbook content.
+- **04_TRAINING_SYSTEM.md**: the finalised training methodology.
+- **05_TECHNICAL_ARCHITECTURE.md**: implementation architecture.
+- **06_UI_UX_GUIDELINES.md**: visual and interaction design.
+- **07_COMPONENT_SPECIFICATION.md**: reusable UI components.
+- **08_IMPLEMENTATION_ROADMAP.md**: development phases.
+- **09_CODING_STANDARDS.md**: engineering standards.
+- **10_VERSIONING.md**: release strategy.
+- **11_REVIEW_GUIDELINES.md**: code review and acceptance criteria.
 
 ---
 

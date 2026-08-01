@@ -6,7 +6,7 @@
 
 **Version:** 1.0.0
 
-**Status:** Finalized
+**Status:** Finalised
 
 **Purpose:** Define the engineering standards, coding conventions, Git workflow, review process, and long-term maintenance philosophy for Project Atlas.
 
@@ -20,7 +20,7 @@ The codebase should remain understandable and maintainable years after its initi
 
 The guiding principle is:
 
-> **Optimize for readability before cleverness.**
+> **Optimise for readability before cleverness.**
 
 Future contributors should understand a feature within minutes rather than hours.
 

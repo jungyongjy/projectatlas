@@ -6,7 +6,7 @@
 
 **Version:** 1.0.0
 
-**Status:** Finalized
+**Status:** Finalised
 
 **Purpose:** Establish the visual language, interaction principles, accessibility standards, and user experience guidelines for Project Atlas.
 
@@ -54,7 +54,7 @@ Atlas should borrow design patterns from:
 
 # 3. Design Goals
 
-Every interface should optimize for:
+Every interface should optimise for:
 
 1. Reading
 2. Navigation
@@ -87,7 +87,7 @@ Avoid anything that resembles:
 
 ---
 
-# 5. Color Palette
+# 5. Colour Palette
 
 ## Background
 
@@ -364,7 +364,7 @@ Desktop only.
 
 Atlas is read more often than interacted with.
 
-Therefore prioritize:
+Therefore prioritise:
 
 - typography
 - spacing

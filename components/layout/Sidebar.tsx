@@ -53,7 +53,7 @@ export function Sidebar({ className, onSearchOpen, onNavigate }: SidebarProps) {
       {/* ── Navigation ── */}
       <ScrollArea className="flex-1 px-3 pb-4">
         <nav aria-label="Handbook navigation">
-          <ul className="space-y-4">
+          <ul className="space-y-6">
             {navigationConfig.groups.map((group) => (
               <NavGroup
                 key={group.title}

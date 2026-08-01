@@ -1,7 +1,7 @@
 // ── Application constants ──
 
 export const APP_NAME = "Project Atlas";
-export const APP_VERSION = "1.0.0";
+export const APP_VERSION = "1.0.1";
 export const APP_DESCRIPTION =
   "A documentation-first operating manual for long-term hybrid athletic development.";
 export const APP_AUTHOR = "Jung Yong";

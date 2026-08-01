@@ -97,12 +97,12 @@ export function TableOfContents() {
             <a
               href={`#${heading.id}`}
               className={cn(
-                "block text-xs py-1 px-2 rounded transition-colors",
-                "hover:text-atlas-text-primary",
+                "block text-xs py-1 px-2 rounded transition-colors duration-200 border-l-2",
+                "hover:text-atlas-text-primary hover:bg-atlas-hover/40",
                 heading.level === 3 && "pl-4",
                 activeId === heading.id
-                  ? "text-atlas-accent bg-atlas-accent/5 border-l-2 border-atlas-accent"
-                  : "text-atlas-text-muted",
+                  ? "text-atlas-accent border-atlas-accent bg-atlas-accent/5 font-medium"
+                  : "text-atlas-text-muted border-transparent",
               )}
             >
               {heading.text}

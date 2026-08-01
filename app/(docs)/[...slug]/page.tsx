@@ -10,7 +10,7 @@ interface HandbookPageProps {
 
 /**
  * Build-time: enumerate all known routes (MDX content + navigation config).
- * This ensures navigation links never 404 — they show ComingSoon when
+ * This ensures navigation links never 404: they show ComingSoon when
  * no MDX file exists yet.
  */
 export async function generateStaticParams() {
@@ -56,7 +56,7 @@ export async function generateMetadata({
 }
 
 /**
- * Handbook page — renders MDX content based on URL slug.
+ * Handbook page, renders MDX content based on URL slug.
  * Falls back to ComingSoon when no MDX file exists for the route.
  */
 export default async function HandbookPage({ params }: HandbookPageProps) {
@@ -68,7 +68,7 @@ export default async function HandbookPage({ params }: HandbookPageProps) {
     return <HandbookLayout metadata={metadata}>{content}</HandbookLayout>;
   }
 
-  // No MDX content yet — show placeholder
+  // No MDX content yet, show placeholder
   const title = metadata?.title ?? slugToTitle(slug);
   const description =
     metadata?.description ??

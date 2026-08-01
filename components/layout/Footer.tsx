@@ -31,7 +31,7 @@ export function Footer() {
           >
             Version History
           </Link>
-          <span>MIT License</span>
+          <span>MIT Licence</span>
         </div>
       </div>
     </footer>

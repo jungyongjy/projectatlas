@@ -6,9 +6,9 @@
 
 **Version:** 1.0.0
 
-**Status:** Finalized
+**Status:** Finalised
 
-**Purpose:** Define the complete repository structure, naming conventions, content organization, asset management, and scaling strategy for Project Atlas.
+**Purpose:** Define the complete repository structure, naming conventions, content organisation, asset management, and scaling strategy for Project Atlas.
 
 ---
 
@@ -16,7 +16,7 @@
 
 Project Atlas follows a documentation-first architecture.
 
-The repository is intentionally organized so that:
+The repository is intentionally organised so that:
 
 - handbook content is separate from code,
 - reusable components remain isolated,
@@ -156,7 +156,7 @@ running/
     PaceTable.tsx
 
 strength/
-    WeeklyProgram.tsx
+    WeeklyProgramme.tsx
 
 utilities/
     WeeklyChecklist.tsx
@@ -496,7 +496,7 @@ Large PNGs
 
 GIF animations
 
-Unoptimized JPEGs
+Unoptimised JPEGs
 
 Target image size
 
@@ -616,7 +616,7 @@ The repository should evolve incrementally.
 
 # Relationship to Other Documents
 
-This document defines the physical organization of the repository.
+This document defines the physical organisation of the repository.
 
 Together, Documents **00–10** provide a complete specification covering:
 

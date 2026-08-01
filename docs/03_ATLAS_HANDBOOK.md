@@ -6,7 +6,7 @@
 
 **Version:** 1.0.0
 
-**Status:** Finalized
+**Status:** Finalised
 
 **Purpose:** Define the complete philosophy, operating principles, and handbook content structure that forms the knowledge base of Project Atlas.
 
@@ -14,7 +14,7 @@
 
 # Introduction
 
-Atlas is not a workout program.
+Atlas is not a workout programme.
 
 It is not a 12-week challenge.
 
@@ -39,7 +39,7 @@ Atlas is built around one central belief.
 
 > **Consistency beats optimisation.**
 
-Most athletes fail because they continuously search for better programs rather than executing good ones consistently.
+Most athletes fail because they continuously search for better programmes rather than executing good ones consistently.
 
 Atlas intentionally prioritises sustainability over perfection.
 
@@ -47,7 +47,7 @@ Atlas intentionally prioritises sustainability over perfection.
 
 # The Atlas Principles
 
-## Principle 1 — Train for Decades
+## Principle 1, Train for Decades
 
 Every decision should still make sense when viewed over the next ten years.
 
@@ -61,7 +61,7 @@ Questions to ask:
 
 ---
 
-## Principle 2 — The Hybrid Athlete
+## Principle 2, The Hybrid Athlete
 
 Atlas does not optimise for one sport.
 
@@ -80,7 +80,7 @@ A small compromise in each individual quality is acceptable if overall capabilit
 
 ---
 
-## Principle 3 — Minimum Effective Dose
+## Principle 3, Minimum Effective Dose
 
 The objective is not to maximise training volume.
 
@@ -95,7 +95,7 @@ Every exercise must justify:
 
 ---
 
-## Principle 4 — High Return on Investment
+## Principle 4, High Return on Investment
 
 Exercises should be selected based on value rather than popularity.
 
@@ -112,9 +112,9 @@ Exercises with poor fatigue-to-benefit ratios should be replaced.
 
 ---
 
-## Principle 5 — Consistency Over Novelty
+## Principle 5, Consistency Over Novelty
 
-The program should change slowly.
+The programme should change slowly.
 
 Exercises should not rotate simply because they become boring.
 
@@ -333,7 +333,7 @@ Training appropriately is better.
 
 ## Myth
 
-Constant program variation prevents plateaus.
+Constant programme variation prevents plateaus.
 
 Reality
 
@@ -382,7 +382,7 @@ Programming decisions should be supported by:
 - sports science,
 - practical coaching experience.
 
-Research should explain programming—not dictate it blindly.
+Research should explain programming-not dictate it blindly.
 
 ---
 
@@ -567,7 +567,7 @@ The next document,
 
 **04_TRAINING_SYSTEM.md**,
 
-translates these principles into the actual weekly program, exercise selection, running methodology, progression strategy, and implementation details that form the operational core of Atlas.
+translates these principles into the actual weekly programme, exercise selection, running methodology, progression strategy, and implementation details that form the operational core of Atlas.
 
 ---
 

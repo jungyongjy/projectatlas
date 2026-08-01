@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { WEEKLY_CHECKLIST_KEY } from "@/lib/constants";
 
@@ -24,14 +24,25 @@ const DEFAULT_ITEMS: ChecklistItem[] = [
 ];
 
 export function WeeklyChecklist() {
+  // Hydration-safe: load persisted state lazily (server always gets an
+  // empty object) but only render the real content after mount, so the
+  // server and client first render both show the skeleton.
   const [checked, setChecked] = useState<Record<string, boolean>>(() => {
+    if (typeof window === "undefined") return {};
     try {
-      const stored = localStorage.getItem(WEEKLY_CHECKLIST_KEY);
-      return stored ? JSON.parse(stored) : {};
+      return JSON.parse(localStorage.getItem(WEEKLY_CHECKLIST_KEY) ?? "{}");
     } catch {
       return {};
     }
   });
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    // Flip the flag once after mount so the first client render matches the
+    // server-rendered skeleton, avoiding a hydration mismatch from local data.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
 
   // Persist state to localStorage on change
   const persist = useCallback((newChecked: Record<string, boolean>) => {
@@ -62,9 +73,8 @@ export function WeeklyChecklist() {
   const checkedCount = Object.values(checked).filter(Boolean).length;
   const totalCount = DEFAULT_ITEMS.length;
 
-  // Avoid hydration mismatch
-  // Show skeleton while hydration state is uncertain
-  if (typeof window === "undefined") {
+  // Show a skeleton until mounted so the server and client first render match.
+  if (!mounted) {
     return (
       <div className="rounded-lg border border-atlas-border bg-atlas-surface p-5">
         <div className="h-5 w-32 bg-atlas-hover rounded animate-pulse mb-4" />
@@ -86,7 +96,7 @@ export function WeeklyChecklist() {
             Weekly Checklist
           </h3>
           <p className="text-xs text-atlas-text-muted mt-0.5">
-            Resets each week — track what matters
+            Resets each week: track what matters
           </p>
         </div>
         <button
@@ -163,7 +173,7 @@ export function WeeklyChecklist() {
         </span>
         <span className="text-xs text-atlas-text-muted">
           {checkedCount === totalCount
-            ? "All done — great week"
+            ? "All done, great week"
             : checkedCount >= totalCount * 0.7
               ? "Almost there"
               : "Keep going"}

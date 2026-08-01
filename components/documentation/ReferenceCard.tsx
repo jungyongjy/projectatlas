@@ -29,7 +29,7 @@ export function ReferenceCard({
       {(journal || doi) && (
         <p className="text-xs text-atlas-text-muted mb-2">
           {journal && <span>{journal}</span>}
-          {journal && doi && <span> — </span>}
+          {journal && doi && <span>, </span>}
           {doi && <span className="font-mono">DOI: {doi}</span>}
         </p>
       )}

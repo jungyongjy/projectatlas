@@ -50,7 +50,7 @@ export const navigationConfig: NavigationConfig = {
           children: [
             { title: "Philosophy", href: "/strength/philosophy" },
             { title: "Concurrent Training", href: "/strength/concurrent-training" },
-            { title: "Weekly Program", href: "/strength/weekly-program" },
+            { title: "Weekly Programme", href: "/strength/weekly-program" },
             { title: "Progression Model", href: "/strength/progression-model" },
             { title: "Exercise Selection", href: "/strength/exercise-selection" },
             { title: "Deload Strategy", href: "/strength/deload-strategy" },

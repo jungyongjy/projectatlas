@@ -6,7 +6,7 @@
 
 **Version:** 1.0.0
 
-**Status:** Finalized
+**Status:** Finalised
 
 **Purpose:** Define the user profile, objectives, preferences, constraints, and assumptions that influence every programming and product decision within Atlas.
 
@@ -454,7 +454,7 @@ Training time is limited.
 
 Long gym sessions are not realistic.
 
-The program must remain effective within approximately:
+The programme must remain effective within approximately:
 
 30 minutes
 
@@ -500,7 +500,7 @@ The user dislikes:
 
 - Unnecessary complexity
 - Exercise variety for its own sake
-- Constant program redesign
+- Constant programme redesign
 - Excessive fatigue
 
 Atlas should evolve through refinement rather than replacement.
@@ -534,7 +534,7 @@ Atlas has successfully fulfilled this user profile when it enables the user to:
 - Maintain or slightly improve physique.
 - Continue gradual strength progression.
 - Remain healthy and injury-resistant.
-- Follow the program consistently for years without major redesign.
+- Follow the programme consistently for years without major redesign.
 
 ---
 
@@ -544,9 +544,9 @@ This document defines **who Atlas is built for**.
 
 Subsequent documents define:
 
-- **03_ATLAS_HANDBOOK.md** — complete handbook content.
-- **04_TRAINING_SYSTEM.md** — finalized programming.
-- **05_TECHNICAL_ARCHITECTURE.md** — implementation details.
+- **03_ATLAS_HANDBOOK.md**: complete handbook content.
+- **04_TRAINING_SYSTEM.md**: finalised programming.
+- **05_TECHNICAL_ARCHITECTURE.md**: implementation details.
 
 All future decisions should remain compatible with the user profile established here.
 

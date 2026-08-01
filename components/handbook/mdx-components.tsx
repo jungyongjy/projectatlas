@@ -5,6 +5,7 @@ import { ScientificNote } from "@/components/documentation/ScientificNote";
 import { WarningBox } from "@/components/documentation/WarningBox";
 import { TipBox } from "@/components/documentation/TipBox";
 import { ReferenceCard } from "@/components/documentation/ReferenceCard";
+import { VersionTimeline } from "@/components/documentation/VersionTimeline";
 import { DecisionTree } from "@/components/decision/DecisionTree";
 import { DecisionEngine } from "@/components/decision/DecisionEngine";
 
@@ -19,6 +20,7 @@ export const mdxComponents: MDXComponents = {
   WarningBox,
   TipBox,
   ReferenceCard,
+  VersionTimeline,
   DecisionTree,
   DecisionEngine,
 
@@ -34,7 +36,7 @@ export const mdxComponents: MDXComponents = {
   h2: ({ children, id, ...props }) => (
     <h2
       id={id}
-      className="text-2xl font-semibold text-atlas-text-primary mt-12 mb-4 pb-1.5 border-b border-atlas-border"
+      className="text-2xl font-semibold text-atlas-text-primary mt-14 mb-5 pb-2 border-b border-atlas-border scroll-mt-8"
       {...props}
     >
       {children}
@@ -43,7 +45,7 @@ export const mdxComponents: MDXComponents = {
   h3: ({ children, id, ...props }) => (
     <h3
       id={id}
-      className="text-xl font-semibold text-atlas-text-primary mt-8 mb-3"
+      className="text-xl font-semibold text-atlas-text-primary mt-10 mb-4 scroll-mt-8"
       {...props}
     >
       {children}
@@ -51,7 +53,7 @@ export const mdxComponents: MDXComponents = {
   ),
   h4: ({ children, ...props }) => (
     <h4
-      className="text-lg font-medium text-atlas-text-primary mt-6 mb-2"
+      className="text-lg font-medium text-atlas-text-primary mt-8 mb-3"
       {...props}
     >
       {children}
@@ -59,7 +61,7 @@ export const mdxComponents: MDXComponents = {
   ),
   p: ({ children, ...props }) => (
     <p
-      className="text-base leading-relaxed text-atlas-text-secondary mb-4 max-w-[72ch]"
+      className="text-base leading-relaxed text-atlas-text-secondary mb-6 max-w-[72ch]"
       {...props}
     >
       {children}
@@ -75,12 +77,12 @@ export const mdxComponents: MDXComponents = {
     </a>
   ),
   ul: ({ children, ...props }) => (
-    <ul className="list-disc list-outside mb-4 pl-6 space-y-1" {...props}>
+    <ul className="list-disc list-outside mb-6 pl-6 space-y-1.5" {...props}>
       {children}
     </ul>
   ),
   ol: ({ children, ...props }) => (
-    <ol className="list-decimal list-outside mb-4 pl-6 space-y-1" {...props}>
+    <ol className="list-decimal list-outside mb-6 pl-6 space-y-1.5" {...props}>
       {children}
     </ol>
   ),

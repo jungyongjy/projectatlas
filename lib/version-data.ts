@@ -2,9 +2,61 @@ import type { VersionEntry } from "@/types/version";
 
 export const versionHistory: VersionEntry[] = [
   {
+    version: "1.0.1",
+    date: "2026-08-02",
+    summary: "Refinement pass: canonical programme alignment, writing standards, and documentation polish.",
+    changes: [
+      {
+        type: "changed",
+        description: "Aligned the strength programme to the canonical Full Body A and Full Body B templates",
+      },
+      {
+        type: "changed",
+        description: "Standardised the Exercise Library to 18 exercises with a consistent page template",
+      },
+      {
+        type: "added",
+        description: "New Decline Crunch and Weighted Back Extension reference pages",
+      },
+      {
+        type: "changed",
+        description: "Applied British English spellings and removed em dashes across the entire handbook",
+      },
+      {
+        type: "added",
+        description: "Rewrote the README as a professional open-source document",
+      },
+      {
+        type: "added",
+        description: "Introduced a visual version history timeline component",
+      },
+      {
+        type: "changed",
+        description: "Improved search ranking priority: page title, headings, tags, then body content",
+      },
+      {
+        type: "changed",
+        description: "Polished the sidebar, table of contents, and handbook typography",
+      },
+      {
+        type: "added",
+        description: "Added instructional illustrations to exercise, mobility, and running pages",
+      },
+      {
+        type: "changed",
+        description: "Moved AI documentation into docs/internal and replaced default Next.js assets",
+      },
+      {
+        type: "fixed",
+        description: "Resolved a hydration mismatch in the weekly checklist",
+      },
+    ],
+    notes: "Version 1.0.1 is a refinement pass rather than a redesign. The training programme, architecture, and feature set remain unchanged; this release aligns the documentation with the canonical programme and applies consistent writing standards and polish throughout.",
+  },
+  {
     version: "1.0.0",
     date: "2026-08-01",
-    summary: "Initial release of Project Atlas — the complete hybrid athlete handbook.",
+    summary: "Initial release of Project Atlas, the complete hybrid athlete handbook.",
     changes: [
       {
         type: "added",

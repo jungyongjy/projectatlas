@@ -52,7 +52,7 @@ const sections = [
   },
   {
     title: "Exercise Library",
-    description: "Detailed reference pages for every exercise in the program with transfer ratings.",
+    description: "Detailed reference pages for every exercise in the programme with transfer ratings.",
     href: "/exercise-library",
     icon: LibraryBig,
   },
@@ -84,7 +84,7 @@ export default function Homepage() {
         <div className="max-w-4xl mx-auto px-6 py-24 sm:py-32">
           <div className="mb-6">
             <span className="inline-flex items-center gap-1.5 text-xs font-mono text-atlas-text-muted bg-atlas-surface border border-atlas-border rounded-full px-3 py-1">
-              v1.0.0
+              v1.0.1
             </span>
           </div>
 
@@ -99,7 +99,7 @@ export default function Homepage() {
 
           <p className="text-base text-atlas-text-muted max-w-xl mb-10 leading-relaxed">
             Atlas is not a workout tracker, a fitness dashboard, or an AI coach.
-            It is a handbook — a single source of truth for training decisions,
+            It is a handbook, a single source of truth for training decisions,
             programming rationale, and the science behind every recommendation.
           </p>
 
@@ -134,7 +134,7 @@ export default function Homepage() {
               consistency beats optimisation
             </strong>
             . Most athletes fail because they continuously search for better
-            programs rather than executing good ones consistently. Atlas
+            programmes rather than executing good ones consistently. Atlas
             intentionally prioritises sustainability over perfection.
           </p>
           <p className="text-base text-atlas-text-secondary max-w-2xl leading-relaxed mt-4">
@@ -202,7 +202,7 @@ export default function Homepage() {
               </h3>
               <p className="text-sm text-atlas-text-muted leading-relaxed">
                 Programming is guided by biomechanics, physiology, and sports
-                science — not trends.
+                science, not trends.
               </p>
             </div>
             <div className="p-5 rounded-lg border border-atlas-border bg-atlas-surface">
@@ -278,7 +278,7 @@ export default function Homepage() {
         <div className="max-w-4xl mx-auto px-6 py-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div className="flex items-center gap-4 text-sm text-atlas-text-muted">
             <span className="font-mono text-xs bg-atlas-surface border border-atlas-border rounded px-2 py-0.5">
-              v1.0.0
+              v1.0.1
             </span>
             <span>Project Atlas</span>
           </div>
@@ -297,7 +297,7 @@ export default function Homepage() {
             >
               Version History
             </Link>
-            <span>MIT License</span>
+            <span>MIT Licence</span>
           </div>
         </div>
       </footer>

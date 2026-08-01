@@ -70,6 +70,15 @@ function extractSearchEntry(
   const slug = filename === "index.mdx" ? base : [...base, filename.replace(".mdx", "")];
   const href = "/" + slug.join("/");
 
+  // Extract headings (h2 and h3) for weighted search ranking.
+  // Heading matches rank above body content but below the page title.
+  const headings =
+    body
+      .match(/^#{2,3}\s+.*$/gm)
+      ?.map((h) => h.replace(/^#{2,3}\s+/, "").replace(/[`*_]/g, "").trim())
+      .filter(Boolean)
+      .join(" ") ?? "";
+
   // Extract first ~300 chars of plain text content for search
   const content = body
     .replace(/#{1,6}\s/g, "")
@@ -83,6 +92,7 @@ function extractSearchEntry(
     title,
     href,
     content: description ? `${description} ${content}` : content,
+    headings,
     category,
     tags,
   };

@@ -6,7 +6,7 @@
 
 **Version:** 1.0.0
 
-**Status:** Finalized
+**Status:** Finalised
 
 **Purpose:** Define the complete training methodology that Project Atlas is built around. This document serves as the source of truth for all programming decisions.
 
@@ -16,9 +16,9 @@
 
 Atlas is built around concurrent training.
 
-The objective is **not** to maximize any single physical quality.
+The objective is **not** to maximise any single physical quality.
 
-Instead, the system develops multiple qualities simultaneously while minimizing interference between them.
+Instead, the system develops multiple qualities simultaneously while minimising interference between them.
 
 The primary adaptations are:
 
@@ -38,7 +38,7 @@ Programming decisions should always preserve this balance.
 
 The Atlas training system is built around five rules.
 
-## Rule 1 — Running Takes Priority
+## Rule 1, Running Takes Priority
 
 The primary measurable performance goal is improving the 2.4 km run.
 
@@ -48,25 +48,25 @@ Programming should avoid creating unnecessary fatigue that negatively impacts qu
 
 ---
 
-## Rule 2 — Preserve Muscle
+## Rule 2, Preserve Muscle
 
 Muscle mass is considered a long-term asset.
 
-The program should preserve (and slowly improve) muscularity while improving endurance.
+The programme should preserve (and slowly improve) muscularity while improving endurance.
 
 Large sacrifices in physique are unacceptable.
 
 ---
 
-## Rule 3 — Recover Before You Adapt
+## Rule 3, Recover Before You Adapt
 
 Adaptation only occurs after recovery.
 
-The program deliberately leaves recovery capacity unused rather than constantly training at maximum recoverable volume.
+The programme deliberately leaves recovery capacity unused rather than constantly training at maximum recoverable volume.
 
 ---
 
-## Rule 4 — Every Exercise Must Earn Its Place
+## Rule 4, Every Exercise Must Earn Its Place
 
 Every exercise included must justify itself through one or more of the following:
 
@@ -81,9 +81,9 @@ Exercises that fail this test should eventually be replaced.
 
 ---
 
-## Rule 5 — Sustainability Wins
+## Rule 5, Sustainability Wins
 
-The best program is the one that is still being followed five years later.
+The best programme is the one that is still being followed five years later.
 
 ---
 
@@ -195,7 +195,7 @@ Prepare for next cycle.
 | Saturday | Gym |
 | Sunday | Long Run |
 
-This structure intentionally separates demanding sessions while maximizing recovery.
+This structure intentionally separates demanding sessions while maximising recovery.
 
 ---
 
@@ -229,9 +229,9 @@ Gym sessions should:
 
 ✓ Use supersets.
 
-✓ Minimize waiting.
+✓ Minimise waiting.
 
-✓ Minimize setup.
+✓ Minimise setup.
 
 ✓ Preserve running performance.
 
@@ -429,7 +429,7 @@ Reason:
 
 Current development is satisfactory.
 
-The existing program provides:
+The existing programme provides:
 
 - overhead pressing
 - lateral raises
@@ -580,7 +580,7 @@ Work back to 10 reps
 
 Repeat
 
-This minimizes unnecessary plateaus while controlling fatigue.
+This minimises unnecessary plateaus while controlling fatigue.
 
 ---
 
@@ -612,7 +612,7 @@ Hips
 
 Shoulders
 
-Mobility supports movement quality rather than maximizing flexibility.
+Mobility supports movement quality rather than maximising flexibility.
 
 ---
 
@@ -757,7 +757,7 @@ Feeling excellent?
 
 ↓
 
-Follow the program.
+Follow the programme.
 
 Do not add extra work unnecessarily.
 
@@ -773,7 +773,7 @@ over
 
 Perfect for six weeks.
 
-The training system is deliberately conservative because consistency produces greater long-term results than constant optimization.
+The training system is deliberately conservative because consistency produces greater long-term results than constant optimisation.
 
 ---
 
@@ -783,9 +783,9 @@ This document defines **how Atlas trains**.
 
 Future documents define:
 
-- **05_TECHNICAL_ARCHITECTURE.md** — software architecture.
-- **06_UI_UX_GUIDELINES.md** — interface design.
-- **07_COMPONENT_SPECIFICATION.md** — reusable components.
+- **05_TECHNICAL_ARCHITECTURE.md**: software architecture.
+- **06_UI_UX_GUIDELINES.md**: interface design.
+- **07_COMPONENT_SPECIFICATION.md**: reusable components.
 
 This document should be treated as the canonical source for all training recommendations implemented throughout the application.
 

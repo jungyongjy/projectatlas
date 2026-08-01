@@ -52,7 +52,7 @@ Atlas should encourage **less time inside the application**, not more.
 
 Every feature must satisfy the following principles.
 
-## Principle 1 — Documentation First
+## Principle 1, Documentation First
 
 Content takes priority over UI.
 
@@ -60,7 +60,7 @@ Every interface decision exists to improve reading, navigation or understanding.
 
 ---
 
-## Principle 2 — Simplicity
+## Principle 2, Simplicity
 
 Atlas should feel calm.
 
@@ -72,7 +72,7 @@ Avoid dashboards filled with widgets.
 
 ---
 
-## Principle 3 — Permanence
+## Principle 3, Permanence
 
 Documentation should remain readable years from now.
 
@@ -80,7 +80,7 @@ Avoid dependencies that may become difficult to maintain.
 
 ---
 
-## Principle 4 — Scalability
+## Principle 4, Scalability
 
 Adding new handbook chapters should require minimal engineering effort.
 
@@ -88,7 +88,7 @@ New content should primarily involve adding MDX files.
 
 ---
 
-## Principle 5 — Maintainability
+## Principle 5, Maintainability
 
 The codebase should remain understandable to a new developer within one afternoon.
 
@@ -306,7 +306,7 @@ Training Philosophy
 
 Concurrent Training
 
-Weekly Program
+Weekly Programme
 
 Progression Model
 
@@ -316,7 +316,7 @@ Deload Strategy
 
 Frequently Asked Questions
 
-The handbook explains why the program is structured the way it is.
+The handbook explains why the programme is structured the way it is.
 
 It is not merely a list of exercises.
 

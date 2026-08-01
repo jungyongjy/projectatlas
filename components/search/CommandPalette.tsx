@@ -75,9 +75,11 @@ export function CommandPalette({
     () =>
       new Fuse(searchIndex, {
         keys: [
+          // Ranking priority: page title > heading > tags > body content
           { name: "title", weight: 3 },
-          { name: "content", weight: 1 },
+          { name: "headings", weight: 2 },
           { name: "tags", weight: 1.5 },
+          { name: "content", weight: 1 },
           { name: "category", weight: 0.5 },
         ],
         threshold: 0.4,
@@ -237,7 +239,7 @@ export function CommandPalette({
           </CommandEmpty>
         )}
 
-        {/* No query — show hint */}
+        {/* No query, show hint */}
         {!query.trim() && (
           <CommandEmpty>
             <div className="flex flex-col items-center gap-2 py-8">

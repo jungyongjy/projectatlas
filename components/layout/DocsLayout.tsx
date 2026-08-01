@@ -35,7 +35,10 @@ export function DocsLayout({ searchIndex, children }: DocsLayoutProps) {
         {/* Content + TOC */}
         <div className="flex flex-1 overflow-hidden">
           {/* Main content */}
-          <main id="main-content" className="flex-1 min-w-0 overflow-y-auto">
+          <main
+            id="main-content"
+            className="flex-1 min-w-0 overflow-y-auto scroll-smooth"
+          >
             <article className="px-4 lg:px-8 py-8 max-w-3xl mx-auto">
               {children}
             </article>

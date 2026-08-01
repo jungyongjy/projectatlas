@@ -17,6 +17,7 @@ export interface SearchIndex {
   title: string;
   href: string;
   content: string;
+  headings: string;
   category: string;
   tags: string[];
 }

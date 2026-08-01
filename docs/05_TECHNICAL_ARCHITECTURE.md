@@ -6,7 +6,7 @@
 
 **Version:** 1.0.0
 
-**Status:** Finalized
+**Status:** Finalised
 
 **Purpose:** Define the software architecture, engineering principles, project structure, and implementation standards for Project Atlas.
 
@@ -816,9 +816,9 @@ This document defines **how Atlas is engineered**.
 
 Subsequent documents define:
 
-- **06_UI_UX_GUIDELINES.md** — visual language and interaction design.
-- **07_COMPONENT_SPECIFICATION.md** — detailed component catalogue.
-- **08_IMPLEMENTATION_ROADMAP.md** — phased development strategy.
+- **06_UI_UX_GUIDELINES.md**: visual language and interaction design.
+- **07_COMPONENT_SPECIFICATION.md**: detailed component catalogue.
+- **08_IMPLEMENTATION_ROADMAP.md**: phased development strategy.
 
 All implementation decisions should conform to the architectural principles established here.
 

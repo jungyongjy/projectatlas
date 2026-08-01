@@ -6,7 +6,7 @@
 
 **Version:** 1.0.0
 
-**Status:** Finalized
+**Status:** Finalised
 
 **Purpose:** Define the complete development plan for Project Atlas from project initialization to Version 1.0 release.
 
@@ -57,7 +57,7 @@ Documentation grows alongside the application.
 
 ---
 
-# Phase 0 — Project Initialization
+# Phase 0, Project Initialization
 
 ## Objective
 
@@ -110,7 +110,7 @@ chore: initialize Project Atlas
 
 ---
 
-# Phase 1 — Documentation Shell
+# Phase 1, Documentation Shell
 
 ## Objective
 
@@ -145,7 +145,7 @@ feat: create documentation shell
 
 ---
 
-# Phase 2 — Handbook Engine
+# Phase 2, Handbook Engine
 
 ## Objective
 
@@ -178,7 +178,7 @@ feat: implement handbook engine
 
 ---
 
-# Phase 3 — Search
+# Phase 3, Search
 
 ## Objective
 
@@ -210,7 +210,7 @@ feat: add global handbook search
 
 ---
 
-# Phase 4 — Blueprint Section
+# Phase 4, Blueprint Section
 
 ## Objective
 
@@ -241,7 +241,7 @@ feat: add blueprint handbook
 
 ---
 
-# Phase 5 — Running Handbook
+# Phase 5, Running Handbook
 
 ## Objective
 
@@ -276,11 +276,11 @@ feat: complete running handbook
 
 ---
 
-# Phase 6 — Strength Handbook
+# Phase 6, Strength Handbook
 
 ## Objective
 
-Document the finalized training program.
+Document the finalised training programme.
 
 ---
 
@@ -309,7 +309,7 @@ feat: complete strength handbook
 
 ---
 
-# Phase 7 — Mobility Handbook
+# Phase 7, Mobility Handbook
 
 ## Objective
 
@@ -344,7 +344,7 @@ feat: add mobility handbook
 
 ---
 
-# Phase 8 — Nutrition Handbook
+# Phase 8, Nutrition Handbook
 
 ## Objective
 
@@ -378,7 +378,7 @@ feat: complete nutrition handbook
 
 ---
 
-# Phase 9 — Exercise Library
+# Phase 9, Exercise Library
 
 ## Objective
 
@@ -405,7 +405,7 @@ Each includes:
 
 ## Acceptance Criteria
 
-Exercise library populated with all exercises in the finalized program.
+Exercise library populated with all exercises in the finalised programme.
 
 ---
 
@@ -417,7 +417,7 @@ feat: build exercise library
 
 ---
 
-# Phase 10 — Decision Engine
+# Phase 10, Decision Engine
 
 ## Objective
 
@@ -453,7 +453,7 @@ feat: implement decision engine
 
 ---
 
-# Phase 11 — Scientific Appendix
+# Phase 11, Scientific Appendix
 
 ## Objective
 
@@ -490,7 +490,7 @@ feat: add scientific appendix
 
 ---
 
-# Phase 12 — Weekly Checklist
+# Phase 12, Weekly Checklist
 
 ## Objective
 
@@ -528,7 +528,7 @@ feat: add weekly checklist
 
 ---
 
-# Phase 13 — Version History
+# Phase 13, Version History
 
 ## Objective
 
@@ -561,7 +561,7 @@ feat: add version history
 
 ---
 
-# Phase 14 — Polish & Accessibility
+# Phase 14, Polish & Accessibility
 
 ## Objective
 
@@ -576,7 +576,7 @@ Refine the experience.
 - Focus states
 - Responsive refinements
 - Print styles
-- Lighthouse optimization
+- Lighthouse optimisation
 
 ---
 
@@ -601,7 +601,7 @@ refactor: improve accessibility and performance
 
 ---
 
-# Phase 15 — Release v1.0
+# Phase 15, Release v1.0
 
 ## Objective
 

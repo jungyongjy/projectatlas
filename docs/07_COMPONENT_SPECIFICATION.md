@@ -6,7 +6,7 @@
 
 **Version:** 1.0.0
 
-**Status:** Finalized
+**Status:** Finalised
 
 **Purpose:** Define every reusable UI component, its responsibilities, API, design constraints, and implementation standards.
 
@@ -80,7 +80,7 @@ Running
 Strength
 
 ├── ExerciseGrid
-├── WeeklyProgram
+├── WeeklyProgramme
 ├── ProgressionBox
 
 Utilities
@@ -158,7 +158,7 @@ Contains
 
 - Version
 - GitHub
-- License
+- Licence
 - Copyright
 
 ---
@@ -298,7 +298,7 @@ Purpose
 
 General informational callout.
 
-Color
+Colour
 
 Blue.
 
@@ -310,7 +310,7 @@ Purpose
 
 Practical coaching insight.
 
-Color
+Colour
 
 Cyan.
 
@@ -326,7 +326,7 @@ Purpose
 
 Research summary.
 
-Color
+Colour
 
 Purple.
 
@@ -340,7 +340,7 @@ Purpose
 
 Important safety notes.
 
-Color
+Colour
 
 Amber.
 
@@ -352,7 +352,7 @@ Purpose
 
 Quick implementation advice.
 
-Color
+Colour
 
 Green.
 
@@ -540,7 +540,7 @@ Race Week
 
 ---
 
-## WeeklyProgram
+## WeeklyProgramme
 
 Displays
 
