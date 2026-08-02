@@ -16,6 +16,8 @@ import {
   Footprints,
   Dumbbell,
   PersonStanding,
+  Search,
+  SearchX,
   Apple,
   GitBranch,
   LibraryBig,
@@ -198,7 +200,7 @@ export function CommandPalette({
         parts.push(
           <mark
             key={i}
-            className="bg-atlas-accent/20 text-atlas-accent rounded-sm px-0.5"
+            className="bg-atlas-accent/25 text-atlas-accent font-medium rounded-sm px-0.5"
           >
             {text.slice(start, end + 1)}
           </mark>,
@@ -232,6 +234,10 @@ export function CommandPalette({
         {query.trim() && results.length === 0 && (
           <CommandEmpty>
             <div className="flex flex-col items-center gap-2 py-8">
+              <SearchX
+                className="h-8 w-8 text-atlas-text-muted mb-2"
+                aria-hidden="true"
+              />
               <p className="text-sm text-atlas-text-muted">
                 No results for &ldquo;{query}&rdquo;
               </p>
@@ -246,6 +252,10 @@ export function CommandPalette({
         {!query.trim() && (
           <CommandEmpty>
             <div className="flex flex-col items-center gap-2 py-8">
+              <Search
+                className="h-8 w-8 text-atlas-text-muted mb-2"
+                aria-hidden="true"
+              />
               <p className="text-sm text-atlas-text-muted">
                 Type to search the handbook
               </p>
