@@ -18,66 +18,67 @@ export function LegCurlFigure({ alt }: { alt?: string }) {
         strokeLinejoin="round"
       >
         {/* reclined backrest pad, behind the upper back */}
-        <line x1={278} y1={196} x2={322} y2={330} strokeWidth={12} />
+        <line x1={318} y1={196} x2={362} y2={330} strokeWidth={12} />
         {/* thigh-support pad */}
-        <rect x={195} y={326} width={175} height={12} fill={FIG.equipmentFill} />
+        <rect x={235} y={326} width={175} height={12} fill={FIG.equipmentFill} />
         {/* seat column + base */}
-        <line x1={310} y1={338} x2={310} y2={428} />
-        <line x1={295} y1={428} x2={350} y2={428} />
+        <line x1={350} y1={338} x2={350} y2={428} />
+        <line x1={335} y1={428} x2={390} y2={428} />
         {/* lever arm + padded pad behind the calves */}
-        <line x1={310} y1={390} x2={256} y2={390} />
-        <rect x={242} y={378} width={28} height={24} fill={FIG.equipmentFill} />
+        <line x1={350} y1={390} x2={296} y2={390} />
+        <rect x={282} y={378} width={28} height={24} fill={FIG.equipmentFill} />
       </g>
 
       {/* Seated start position: thighs on the pad, shins hanging vertical */}
       <Fig
         pose={{
-          head: { x: 255, y: 196 },
+          head: { x: 295, y: 196 },
           torso: [
-            { x: 262, y: 216 },
-            { x: 260, y: 326 },
+            { x: 302, y: 216 },
+            { x: 300, y: 326 },
           ],
           arms: [
-            [{ x: 266, y: 226 }, { x: 260, y: 280 }, { x: 250, y: 318 }],
-            [{ x: 262, y: 226 }, { x: 268, y: 282 }, { x: 260, y: 320 }],
+            [{ x: 306, y: 226 }, { x: 300, y: 280 }, { x: 290, y: 318 }],
+            [{ x: 302, y: 226 }, { x: 308, y: 282 }, { x: 300, y: 320 }],
           ],
           legs: [
-            [{ x: 260, y: 326 }, { x: 200, y: 330 }, { x: 198, y: 428 }],
-            [{ x: 260, y: 326 }, { x: 212, y: 332 }, { x: 212, y: 428 }],
+            [{ x: 300, y: 326 }, { x: 240, y: 330 }, { x: 238, y: 428 }],
+            [{ x: 300, y: 326 }, { x: 252, y: 332 }, { x: 252, y: 428 }],
           ],
         }}
       />
-      {/* Ghost of the curled position: heel back and up to the pad */}
+      {/* Ghost of the curled position: heel swung back and up to the pad */}
       <Fig
         ghost
         pose={{
-          head: { x: 255, y: 196 },
+          head: { x: 295, y: 196 },
           torso: [
-            { x: 262, y: 216 },
-            { x: 260, y: 326 },
+            { x: 302, y: 216 },
+            { x: 300, y: 326 },
           ],
           arms: [
-            [{ x: 266, y: 226 }, { x: 260, y: 280 }, { x: 250, y: 318 }],
-            [{ x: 262, y: 226 }, { x: 268, y: 282 }, { x: 260, y: 320 }],
+            [{ x: 306, y: 226 }, { x: 300, y: 280 }, { x: 290, y: 318 }],
+            [{ x: 302, y: 226 }, { x: 308, y: 282 }, { x: 300, y: 320 }],
           ],
           legs: [
             // curled lower leg, heel swung back and up
-            [{ x: 260, y: 326 }, { x: 200, y: 330 }, { x: 269, y: 399 }],
-            [{ x: 260, y: 326 }, { x: 212, y: 332 }, { x: 212, y: 428 }],
+            [{ x: 300, y: 326 }, { x: 240, y: 330 }, { x: 327, y: 375 }],
+            [{ x: 300, y: 326 }, { x: 252, y: 332 }, { x: 252, y: 428 }],
           ],
         }}
       />
 
-      {/* Dashed arc marking the knee-flexion range (hanging → curled) */}
+      {/* Dashed arc marking the knee-flexion range, centered at the knee and
+          sweeping from the hanging shin (straight down) to the curled shin */}
       <path
-        d="M 198 428 A 98 98 0 0 0 269 399"
+        d="M 240 385 A 55 55 0 0 0 289 355"
         fill="none"
         stroke={FIG.annotation}
         strokeWidth={2.5}
         strokeDasharray={FIG.dash}
         strokeLinecap="round"
       />
-      <Label x={120} y={296}>knee flexion</Label>
+      <Label x={120} y={372}>knee flexion</Label>
     </FigureCanvas>
   );
 }

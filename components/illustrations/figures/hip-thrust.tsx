@@ -16,7 +16,8 @@ export function HipThrustFigure({ alt }: { alt?: string }) {
       <Fig
         ghost
         pose={{
-          head: { x: 484, y: 346 },
+          // floor-start head hangs off the bench end, below bench level
+          head: { x: 508, y: 398 },
           torso: [
             { x: 470, y: 378 },
             { x: 365, y: 410 },
