@@ -22,6 +22,13 @@ import { Hip9090Figure } from "./figures/hip-90-90";
 import { ThoracicRotationFigure } from "./figures/thoracic-rotation";
 import { WarmUpRoutineFigure } from "./figures/warm-up-routine";
 import { RecoveryMobilityFigure } from "./figures/recovery-mobility";
+import { RunningGaitFigure } from "./figures/running-gait";
+import { IntervalsFigure } from "./figures/intervals";
+import { LongRunPaceFigure } from "./figures/long-run-pace";
+import { Norwegian4x4Figure } from "./figures/norwegian-4x4";
+import { StridesFigure } from "./figures/strides";
+import { ThresholdFigure } from "./figures/threshold";
+import { Zone2ThresholdFigure } from "./figures/zone2-threshold";
 
 /**
  * A figure component receives an optional alt so MDX authors can override
@@ -55,6 +62,13 @@ const registry: Record<string, FigureComponent> = {
   thoracicRotation: ThoracicRotationFigure,
   warmUpRoutine: WarmUpRoutineFigure,
   recoveryMobility: RecoveryMobilityFigure,
+  runningGait: RunningGaitFigure,
+  intervals: IntervalsFigure,
+  longRunPace: LongRunPaceFigure,
+  norwegian4x4: Norwegian4x4Figure,
+  strides: StridesFigure,
+  threshold: ThresholdFigure,
+  zone2Threshold: Zone2ThresholdFigure,
 };
 
 interface FigureProps {
