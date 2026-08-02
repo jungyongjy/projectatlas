@@ -6,6 +6,7 @@ import { WarningBox } from "@/components/documentation/WarningBox";
 import { TipBox } from "@/components/documentation/TipBox";
 import { ReferenceCard } from "@/components/documentation/ReferenceCard";
 import { VersionTimeline } from "@/components/documentation/VersionTimeline";
+import { DrillCard, DrillStep } from "@/components/documentation/DrillCard";
 import { DecisionTree } from "@/components/decision/DecisionTree";
 import { DecisionEngine } from "@/components/decision/DecisionEngine";
 
@@ -21,6 +22,8 @@ export const mdxComponents: MDXComponents = {
   TipBox,
   ReferenceCard,
   VersionTimeline,
+  DrillCard,
+  DrillStep,
   DecisionTree,
   DecisionEngine,
 
