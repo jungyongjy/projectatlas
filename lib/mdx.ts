@@ -1,6 +1,9 @@
 import { readFileSync, existsSync, readdirSync } from "fs";
 import { join } from "path";
 import { compileMDX } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
+import rehypeSlug from "rehype-slug";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import type { HandbookMetadata } from "@/types/metadata";
 import { mdxComponents } from "@/components/handbook/mdx-components";
 
@@ -143,8 +146,8 @@ export async function getMdxPage(
       options: {
         parseFrontmatter: false, // already parsed above
         mdxOptions: {
-          remarkPlugins: [],
-          rehypePlugins: [],
+          remarkPlugins: [remarkGfm],
+          rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings],
         },
       },
     });
