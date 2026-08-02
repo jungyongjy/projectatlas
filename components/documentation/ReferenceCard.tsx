@@ -18,7 +18,7 @@ export function ReferenceCard({
   link,
 }: ReferenceCardProps) {
   return (
-    <div className="my-4 rounded-lg border border-atlas-border bg-atlas-surface p-4">
+    <div className="my-4 rounded-lg border border-atlas-border bg-atlas-surface p-5">
       <p className="text-sm text-atlas-text-secondary mb-1">
         <span className="text-atlas-text-primary font-medium">{authors}</span>
         {" "}({year})
@@ -26,11 +26,14 @@ export function ReferenceCard({
       <p className="text-sm text-atlas-text-primary font-medium mb-1">
         {title}
       </p>
-      {(journal || doi) && (
-        <p className="text-xs text-atlas-text-muted mb-2">
-          {journal && <span>{journal}</span>}
-          {journal && doi && <span>, </span>}
-          {doi && <span className="font-mono">DOI: {doi}</span>}
+      {journal && (
+        <p className="text-xs text-atlas-text-muted mb-2">{journal}</p>
+      )}
+      {doi && (
+        <p className="mb-2">
+          <span className="inline-flex items-center rounded-md border border-atlas-border bg-atlas-hover px-2 py-0.5 font-mono text-xs text-atlas-text-secondary">
+            DOI: {doi}
+          </span>
         </p>
       )}
       {link && (
