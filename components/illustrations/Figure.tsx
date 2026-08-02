@@ -16,6 +16,7 @@ import { PreacherCurlFigure } from "./figures/preacher-curl";
 import { HammerCurlFigure } from "./figures/hammer-curl";
 import { PallofPressFigure } from "./figures/pallof-press";
 import { DeclineCrunchFigure } from "./figures/decline-crunch";
+import { DecisionTreeFigure } from "./figures/decision-tree";
 import { AnklesFigure } from "./figures/ankles";
 import { CalfStretchFigure } from "./figures/calf-stretch";
 import { Hip9090Figure } from "./figures/hip-90-90";
@@ -56,6 +57,7 @@ const registry: Record<string, FigureComponent> = {
   hammerCurl: HammerCurlFigure,
   pallofPress: PallofPressFigure,
   declineCrunch: DeclineCrunchFigure,
+  decisionTree: DecisionTreeFigure,
   ankles: AnklesFigure,
   calfStretch: CalfStretchFigure,
   hip9090: Hip9090Figure,
