@@ -4,6 +4,12 @@ import { HipThrustFigure } from "./figures/hip-thrust";
 import { LegPressFigure } from "./figures/leg-press";
 import { LegCurlFigure } from "./figures/leg-curl";
 import { WeightedBackExtensionFigure } from "./figures/weighted-back-extension";
+import { ChestPressFigure } from "./figures/chest-press";
+import { MachineShoulderPressFigure } from "./figures/machine-shoulder-press";
+import { LateralRaiseFigure } from "./figures/lateral-raise";
+import { CableTricepsExtensionFigure } from "./figures/cable-triceps-extension";
+import { FacePullFigure } from "./figures/face-pull";
+import { RearDeltReverseFlyFigure } from "./figures/rear-delt-reverse-fly";
 
 /**
  * A figure component receives an optional alt so MDX authors can override
@@ -19,6 +25,12 @@ const registry: Record<string, FigureComponent> = {
   legPress: LegPressFigure,
   legCurl: LegCurlFigure,
   weightedBackExtension: WeightedBackExtensionFigure,
+  chestPress: ChestPressFigure,
+  machineShoulderPress: MachineShoulderPressFigure,
+  lateralRaise: LateralRaiseFigure,
+  cableTricepsExtension: CableTricepsExtensionFigure,
+  facePull: FacePullFigure,
+  rearDeltReverseFly: RearDeltReverseFlyFigure,
 };
 
 interface FigureProps {
