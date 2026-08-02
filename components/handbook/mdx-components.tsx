@@ -9,6 +9,7 @@ import { VersionTimeline } from "@/components/documentation/VersionTimeline";
 import { DrillCard, DrillStep } from "@/components/documentation/DrillCard";
 import { DecisionTree } from "@/components/decision/DecisionTree";
 import { DecisionEngine } from "@/components/decision/DecisionEngine";
+import { Figure } from "@/components/illustrations/Figure";
 
 /**
  * Reusable MDX component map.
@@ -26,6 +27,7 @@ export const mdxComponents: MDXComponents = {
   DrillStep,
   DecisionTree,
   DecisionEngine,
+  Figure,
 
   // Semantic HTML overrides for consistent styling
   h1: ({ children, ...props }) => (
