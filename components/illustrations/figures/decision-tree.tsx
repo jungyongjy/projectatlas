@@ -61,7 +61,7 @@ export function DecisionTreeFigure({ alt }: { alt?: string }) {
         x={165}
         y={331}
         textAnchor="middle"
-        fill="#0b0b0b"
+        fill={FIG.bg}
         fontFamily={FIG.font}
         fontSize={15}
         letterSpacing={1}
@@ -81,7 +81,7 @@ export function DecisionTreeFigure({ alt }: { alt?: string }) {
         x={475}
         y={331}
         textAnchor="middle"
-        fill="#0b0b0b"
+        fill={FIG.bg}
         fontFamily={FIG.font}
         fontSize={15}
         letterSpacing={1}
