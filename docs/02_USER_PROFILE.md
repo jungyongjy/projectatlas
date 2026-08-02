@@ -4,7 +4,7 @@
 
 ## User Profile & Design Constraints
 
-**Version:** 1.0.0
+**Version:** 1.1.0
 
 **Status:** Finalised
 
@@ -157,11 +157,7 @@ Resting Heart Rate
 
 Tuesday
 
-5 km Zone 2
-
-Friday
-
-Quality Workout
+Hard Run
 
 Alternates between:
 
@@ -170,13 +166,17 @@ Alternates between:
 - Threshold Run
 - Strides Session
 
-Sunday
+Thursday
+
+Easy Zone 2 (5 km)
+
+Saturday
 
 7–10 km Long Run
 
-Thursday
+Sunday
 
-Rest
+Complete Rest
 
 ---
 

@@ -43,7 +43,7 @@ export function NavGroup({ title, items }: NavGroupProps) {
         type="button"
         onClick={() => setExpanded(!expanded)}
         className={cn(
-          "flex w-full items-center gap-2 rounded-md px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider transition-colors duration-150",
+          "flex w-full items-center gap-2 rounded-md px-3 py-2 text-[10px] font-semibold uppercase tracking-[0.09em] transition-colors duration-150",
           "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-atlas-accent",
           hasActiveChild
             ? "text-atlas-text-secondary"
@@ -54,19 +54,19 @@ export function NavGroup({ title, items }: NavGroupProps) {
         <span className="flex-1 text-left">{title}</span>
         <ChevronDown
           className={cn(
-            "h-3.5 w-3.5 text-atlas-text-muted transition-transform duration-200",
+            "h-3 w-3 text-atlas-text-muted/70 transition-transform duration-200",
             expanded && "rotate-180",
           )}
         />
       </button>
 
       {expanded && (
-        <ul className="mt-1.5 space-y-0.5">
+        <ul className="mt-1 space-y-1">
           {items.map((item) => (
             <li key={item.href}>
               <NavItem title={item.title} href={item.href} />
               {item.children && item.children.length > 0 && (
-                <ul className="mt-0.5 space-y-0.5 border-l border-atlas-border ml-3 pl-3">
+                <ul className="mt-0.5 space-y-1 border-l border-atlas-border ml-3 pl-3">
                   {item.children.map((child) => (
                     <li key={child.href}>
                       <NavItem title={child.title} href={child.href} />

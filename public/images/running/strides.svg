@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="Strides, a relaxed 50 metre acceleration at 80 to 90 percent">
+  <rect width="360" height="240" rx="12" fill="#161616"/>
+  <text x="180" y="30" text-anchor="middle" font-family="monospace" font-size="13" fill="#7a7a7a">STRIDES</text>
+  <line x1="40" y1="150" x2="320" y2="150" stroke="#2a2a2a" stroke-width="2" stroke-dasharray="4,4"/>
+  <g stroke="#4f8ef7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <circle cx="70" cy="120" r="9"/>
+    <line x1="70" y1="129" x2="70" y2="146"/>
+    <line x1="70" y1="134" x2="64" y2="142"/>
+    <line x1="70" y1="134" x2="76" y2="142"/>
+    <circle cx="150" cy="96" r="9"/>
+    <line x1="150" y1="105" x2="150" y2="122"/>
+    <line x1="150" y1="110" x2="144" y2="118"/>
+    <line x1="150" y1="110" x2="156" y2="118"/>
+    <line x1="70" y1="146" x2="150" y2="122"/>
+    <line x1="150" y1="122" x2="230" y2="96"/>
+    <line x1="150" y1="122" x2="142" y2="128"/>
+    <line x1="150" y1="122" x2="158" y2="128"/>
+    <circle cx="250" cy="80" r="9"/>
+    <line x1="250" y1="89" x2="250" y2="102"/>
+    <line x1="250" y1="94" x2="244" y2="100"/>
+    <line x1="250" y1="94" x2="256" y2="100"/>
+    <line x1="230" y1="96" x2="250" y2="102"/>
+  </g>
+  <path d="M60 160 C 100 176, 160 176, 210 162" stroke="#2a2a2a" stroke-width="2" stroke-dasharray="4,4" fill="none"/>
+  <text x="70" y="176" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">ease in</text>
+  <text x="250" y="70" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">80–90%</text>
+  <text x="180" y="224" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">relaxed, fast, smooth, 50 m accelerations</text>
+</svg>

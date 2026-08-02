@@ -8,7 +8,7 @@
 
 Built for one athlete. Designed to last decades.
 
-[![Version](https://img.shields.io/badge/version-1.0.1-4f8ef7)](https://github.com/jungyong/projectatlas)
+[![Version](https://img.shields.io/badge/version-1.1.0-4f8ef7)](https://github.com/jungyong/projectatlas)
 [![Licence](https://img.shields.io/badge/licence-MIT-2ecc71)](https://github.com/jungyong/projectatlas/blob/main/LICENSE.md)
 [![Framework](https://img.shields.io/badge/Next.js-16.2.12-000000?logo=next.js)](https://nextjs.org/)
 [![Deployment](https://img.shields.io/badge/deployed-Vercel-000000?logo=vercel)](https://vercel.com/)
@@ -84,9 +84,19 @@ Atlas is a fully static documentation application built on the Next.js App Route
 ```
 
 - **Static generation**, every handbook page is pre-rendered at build time from MDX via `generateStaticParams` and `next-mdx-remote`.
-- **Single source of truth**, navigation lives in `lib/navigation.ts`; version history in `lib/version-data.ts`; decision trees in `lib/decision-data.ts`.
+- **Single source of truth**, navigation lives in `lib/navigation.ts`; the training programme in `content/training/current-programme.mdx`; version history in `lib/version-data.ts`; decision trees in `lib/decision-data.ts`.
 - **Design tokens**, a dark-only theme driven by CSS variables in `app/globals.css`, consumed through Tailwind utility classes.
 - **No runtime backend**, no database, no authentication, no cloud sync. The handbook is a static bundle served from a CDN.
+
+### Documentation flow
+
+Content is authored as Markdown and rendered as static HTML.
+
+1. **Authoring**: Handbook pages are `.mdx` files under `content/`, with YAML frontmatter for title, description, category, and tags
+2. **Compilation**: `next-mdx-remote` compiles each page at build time, resolving Atlas components (`InfoBox`, `CoachNote`, `DecisionTree`) automatically
+3. **Single sources of truth**: navigation, the training programme, decision trees, and version history each live in one file, and handbook pages reference them rather than duplicating details
+4. **Static export**: every page is pre-rendered and served as static HTML; the command palette and weekly checklist are the only client-hydrated interactivity
+5. **Updating**: adding a handbook page is a single MDX file; changing the programme is editing one canonical page
 
 ## Folder structure
 
@@ -102,6 +112,7 @@ atlas/
 │   ├── search/           # Command palette (Fuse.js)
 │   └── ui/               # Shadcn UI primitives
 ├── content/              # All MDX handbook content
+│   ├── training/         # The canonical current programme (single source of truth)
 │   ├── blueprint/        # Philosophy, goals, principles, weekly schedule
 │   ├── running/          # Zone 2 through race week
 │   ├── strength/         # Programme, progression, exercise selection

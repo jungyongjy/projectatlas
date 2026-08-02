@@ -12,6 +12,7 @@ import {
   History,
 } from "lucide-react";
 import { WeeklyChecklist } from "@/components/checklist/WeeklyChecklist";
+import { APP_VERSION } from "@/lib/constants";
 
 const sections = [
   {
@@ -84,7 +85,7 @@ export default function Homepage() {
         <div className="max-w-4xl mx-auto px-6 py-24 sm:py-32">
           <div className="mb-6">
             <span className="inline-flex items-center gap-1.5 text-xs font-mono text-atlas-text-muted bg-atlas-surface border border-atlas-border rounded-full px-3 py-1">
-              v1.0.1
+              v{APP_VERSION}
             </span>
           </div>
 
@@ -278,7 +279,7 @@ export default function Homepage() {
         <div className="max-w-4xl mx-auto px-6 py-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div className="flex items-center gap-4 text-sm text-atlas-text-muted">
             <span className="font-mono text-xs bg-atlas-surface border border-atlas-border rounded px-2 py-0.5">
-              v1.0.1
+              v{APP_VERSION}
             </span>
             <span>Project Atlas</span>
           </div>

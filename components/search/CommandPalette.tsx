@@ -22,6 +22,7 @@ import {
   FlaskConical,
   BookMarked,
   History,
+  CalendarDays,
   FileText,
 } from "lucide-react";
 import type { SearchIndex, SearchResult } from "@/types/search";
@@ -34,6 +35,7 @@ interface CommandPaletteProps {
 
 const CATEGORY_ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
   blueprint: BookOpen,
+  training: CalendarDays,
   running: Footprints,
   strength: Dumbbell,
   mobility: PersonStanding,
@@ -47,6 +49,7 @@ const CATEGORY_ICONS: Record<string, React.ComponentType<{ className?: string }>
 
 const CATEGORY_LABELS: Record<string, string> = {
   blueprint: "Blueprint",
+  training: "Training",
   running: "Running",
   strength: "Strength",
   mobility: "Mobility",

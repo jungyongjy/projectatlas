@@ -4,7 +4,7 @@
 
 ## Product Specification
 
-**Version:** 1.0.0
+**Version:** 1.1.0
 
 **Status:** Approved
 
@@ -521,8 +521,8 @@ Atlas follows Semantic Versioning.
 Checklist Items:
 
 - Gym ×3
-- Run ×3
-- Friday Quality Session
+- Hard Run
+- Zone 2
 - Long Run
 - Mobility
 - Protein

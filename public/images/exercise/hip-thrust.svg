@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="Barbell hip thrust, side view showing start and top positions">
+  <rect width="360" height="240" rx="12" fill="#161616"/>
+  <text x="180" y="30" text-anchor="middle" font-family="monospace" font-size="13" fill="#7a7a7a">BARBELL HIP THRUST</text>
+  <line x1="30" y1="215" x2="330" y2="215" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round"/>
+  <rect x="40" y="200" width="55" height="15" rx="4" fill="#1f1f1f" stroke="#2a2a2a"/>
+  <rect x="265" y="200" width="55" height="15" rx="4" fill="#1f1f1f" stroke="#2a2a2a"/>
+  <g stroke="#4f8ef7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.4">
+    <circle cx="150" cy="172" r="10"/>
+    <line x1="150" y1="182" x2="150" y2="196"/>
+    <line x1="150" y1="186" x2="118" y2="190"/>
+    <line x1="150" y1="186" x2="182" y2="190"/>
+    <line x1="118" y1="190" x2="118" y2="205"/>
+    <line x1="182" y1="190" x2="182" y2="205"/>
+  </g>
+  <line x1="128" y1="172" x2="172" y2="172" stroke="#2a2a2a" stroke-width="5" stroke-linecap="round"/>
+  <g stroke="#4f8ef7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <circle cx="150" cy="110" r="10"/>
+    <line x1="150" y1="120" x2="150" y2="142"/>
+    <line x1="150" y1="128" x2="118" y2="140"/>
+    <line x1="150" y1="128" x2="182" y2="140"/>
+    <line x1="118" y1="140" x2="118" y2="196"/>
+    <line x1="182" y1="140" x2="182" y2="196"/>
+  </g>
+  <line x1="128" y1="98" x2="172" y2="98" stroke="#2a2a2a" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="140" cy="98" r="6" fill="#2a2a2a"/>
+  <circle cx="160" cy="98" r="6" fill="#2a2a2a"/>
+  <path d="M150 160 L 150 122" stroke="#4f8ef7" stroke-width="2" stroke-dasharray="4,4" fill="none"/>
+  <polygon points="150,118 145,127 155,127" fill="#4f8ef7"/>
+  <text x="90" y="178" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">start</text>
+  <text x="90" y="90" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">full extension</text>
+  <text x="180" y="232" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">drive through the heels; squeeze at the top</text>
+</svg>

@@ -4,7 +4,7 @@
 
 ## Training System
 
-**Version:** 1.0.0
+**Version:** 1.1.0
 
 **Status:** Finalised
 
@@ -187,15 +187,15 @@ Prepare for next cycle.
 
 | Day | Session |
 |------|----------|
-| Monday | Gym |
-| Tuesday | Zone 2 |
-| Wednesday | Gym |
-| Thursday | Rest |
-| Friday | Quality Run |
-| Saturday | Gym |
-| Sunday | Long Run |
+| Monday | Gym (Full Body A or B) |
+| Tuesday | Hard Run |
+| Wednesday | Gym (Full Body A or B) |
+| Thursday | Easy Zone 2 |
+| Friday | Gym (Full Body A or B) |
+| Saturday | Long Run |
+| Sunday | Complete Rest |
 
-This structure intentionally separates demanding sessions while maximising recovery.
+This structure balances three gym sessions and three runs with one complete rest day. The only high-intensity session, Tuesday's Hard Run, is always performed fresh.
 
 ---
 
@@ -277,23 +277,23 @@ Available in most commercial gyms.
 
 # 8. Weekly Strength Template
 
-Three rotating full-body sessions.
+Three rotating full-body sessions on a two-week cycle.
 
-Example
-
-Week A
-
-B
-
-A
-
-Week B
+Week 1
 
 A
 
 B
 
 A
+
+Week 2
+
+B
+
+A
+
+B
 
 This increases exercise frequency while maintaining variation.
 
@@ -301,61 +301,57 @@ This increases exercise frequency while maintaining variation.
 
 # 9. Final Exercise Selection
 
+The canonical programme is maintained in `content/training/current-programme.mdx`. This section documents the exercise list for reference.
+
 ## Full Body A
 
-Leg Curl
-
-Leg Press
+Leg Press (Machine)
 
 Machine Shoulder Press
 
-Pull-Ups
+Pull-Up
 
-Reverse Pec Deck
+Seated Leg Curl
+
+Rear Delt Reverse Fly
 
 Preacher Curl
 
-Lateral Raise
+Seated Lateral Raise
 
 Cable Triceps Extension
 
-Dragon Flag
+Decline Crunch
 
-Hip Thrust
+Weighted Back Extension
 
-Standing Calf Raise
-
-Micro Plyometric
+Standing or seated calf raises performed afterwards.
 
 ---
 
 ## Full Body B
 
+Machine Chest Press
+
+Seated Cable Row
+
 Bulgarian Split Squat
 
-Chest Press
-
-Cable Row
-
 Romanian Deadlift
+
+Seated Lateral Raise
+
+Cable Triceps Extension
 
 Face Pull
 
 Hammer Curl
 
-Cable Triceps Extension
-
-Lateral Raise
-
 Pallof Press
 
-Hip Abductor
+Barbell Hip Thrust
 
-Hip Adductor
-
-Standing Calf Raise
-
-Micro Plyometric
+Standing or seated calf raises performed afterwards.
 
 ---
 
@@ -378,7 +374,7 @@ Given only ~30 minutes per session, compound unilateral work offers superior tot
 
 # 11. Why Machine Compounds?
 
-Atlas intentionally favors machine compounds over heavy barbell lifts.
+Atlas intentionally favours machine compounds over heavy barbell lifts.
 
 Reasons:
 
@@ -478,7 +474,25 @@ Running consists of three sessions.
 
 ## Tuesday
 
-Zone 2
+Hard Run
+
+Rotates between:
+
+400 m intervals
+
+Norwegian 4×4
+
+Threshold
+
+Strides
+
+This develops every major running quality without excessive specialisation.
+
+---
+
+## Thursday
+
+Easy Zone 2
 
 Purpose:
 
@@ -492,25 +506,7 @@ No racing.
 
 ---
 
-## Friday
-
-Quality Session
-
-Rotates between:
-
-400 m intervals
-
-Norwegian 4×4
-
-Threshold
-
-Strides
-
-This develops every major running quality without excessive specialization.
-
----
-
-## Sunday
+## Saturday
 
 Long Run
 
@@ -765,7 +761,7 @@ Do not add extra work unnecessarily.
 
 # 24. Guiding Philosophy
 
-Atlas intentionally favors:
+Atlas intentionally favours:
 
 Good enough forever
 

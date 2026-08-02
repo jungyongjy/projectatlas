@@ -6,6 +6,31 @@ Atlas follows [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [1.1.0]: 2026-08-02
+
+### Added
+
+- Current Programme page as the single source of truth for Full Body A and Full Body B, supersets, sets, and reps
+- 22 instructional illustrations across the Exercise Library, mobility, running, and decision engine pages
+- Documentation flow overview in the README
+
+### Changed
+
+- Aligned every handbook page to the final weekly schedule: gym Monday, Wednesday, Friday; hard run Tuesday; easy Zone 2 Thursday; long run Saturday; complete rest Sunday
+- Updated the training philosophy to centre on maximum adaptation with minimum recoverable cost
+- Polished the sidebar hierarchy, active indicators, table of contents, and handbook typography
+- Weighted search ranking toward page title, headings, and tags
+
+### Removed
+
+- Dead components (Header, Breadcrumb) and unused UI primitives
+
+### Notes
+
+Version 1.1.0 completes the final refinement pass. The training programme is documented once in the Current Programme page and referenced everywhere else, so the handbook cannot drift from the programme.
+
+---
+
 ## [1.0.1]: 2026-08-02
 
 ### Changed
@@ -43,7 +68,7 @@ Version 1.0.1 is a refinement pass rather than a redesign. The training programm
 - Strength handbook (8 pages: philosophy, concurrent training, weekly programme, progression model, exercise selection, deload strategy, FAQ)
 - Mobility handbook (7 pages: thoracic spine, calves, ankles, hips, warm-up, recovery)
 - Nutrition handbook (9 pages: protein, calories, hydration, carbohydrates, supplements, meal timing, recovery, travel)
-- Exercise Library (21 individual exercise pages with transfer ratings, execution guides, and coach notes)
+- Exercise Library (18 individual exercise pages with transfer ratings, execution guides, and coach notes)
 - Decision Engine (7 interactive decision trees for common training scenarios)
 - Scientific Appendix (8 evidence summaries with key references)
 - References page (bibliography with authors, journals, and DOIs)

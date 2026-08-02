@@ -87,17 +87,17 @@ export function TableOfContents() {
       aria-label="Table of Contents"
       className="hidden xl:block sticky top-20 w-[220px] shrink-0 self-start max-h-[calc(100vh-6rem)] overflow-y-auto"
     >
-      <h2 className="text-xs font-semibold text-atlas-text-muted uppercase tracking-wider mb-3 px-1">
+      <h2 className="text-[11px] font-semibold text-atlas-text-muted uppercase tracking-[0.09em] mb-4 px-1">
         On this page
       </h2>
 
-      <ul className="space-y-0.5">
+      <ul className="space-y-1">
         {headings.map((heading) => (
           <li key={heading.id}>
             <a
               href={`#${heading.id}`}
               className={cn(
-                "block text-xs py-1 px-2 rounded transition-colors duration-200 border-l-2",
+                "block text-[13px] leading-snug py-1.5 px-2 rounded-md transition-colors duration-200 border-l-2",
                 "hover:text-atlas-text-primary hover:bg-atlas-hover/40",
                 heading.level === 3 && "pl-4",
                 activeId === heading.id

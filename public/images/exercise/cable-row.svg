@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="Seated cable row, side view">
+  <rect width="360" height="240" rx="12" fill="#161616"/>
+  <text x="180" y="30" text-anchor="middle" font-family="monospace" font-size="13" fill="#7a7a7a">CABLE ROW: HORIZONTAL PULL</text>
+  <g stroke="#2a2a2a" stroke-width="3" stroke-linecap="round" fill="none">
+    <rect x="25" y="60" width="30" height="10" rx="3"/>
+    <line x1="40" y1="70" x2="40" y2="170"/>
+    <line x1="25" y1="170" x2="55" y2="170"/>
+    <line x1="40" y1="170" x2="60" y2="150"/>
+    <line x1="60" y1="150" x2="115" y2="110"/>
+    <rect x="20" y="160" width="70" height="8" rx="3"/>
+    <line x1="90" y1="164" x2="115" y2="164"/>
+  </g>
+  <g stroke="#4f8ef7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <circle cx="185" cy="70" r="11"/>
+    <line x1="185" y1="81" x2="185" y2="120"/>
+    <line x1="185" y1="92" x2="170" y2="112"/>
+    <line x1="185" y1="92" x2="200" y2="112"/>
+    <line x1="185" y1="120" x2="185" y2="175"/>
+    <line x1="185" y1="130" x2="170" y2="165"/>
+    <line x1="185" y1="130" x2="200" y2="165"/>
+    <line x1="185" y1="110" x2="150" y2="100"/>
+    <line x1="150" y1="100" x2="128" y2="106"/>
+    <line x1="185" y1="110" x2="205" y2="95"/>
+  </g>
+  <line x1="205" y1="95" x2="210" y2="97" stroke="#4f8ef7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M120 108 L 160 102" stroke="#4f8ef7" stroke-width="2" fill="none" stroke-dasharray="4,4"/>
+  <polygon points="162,102 153,97 155,107" fill="#4f8ef7"/>
+  <text x="300" y="80" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">pull to torso</text>
+  <text x="180" y="220" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">elbows stay close to the body</text>
+</svg>

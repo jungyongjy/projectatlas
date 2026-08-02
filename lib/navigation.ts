@@ -1,6 +1,6 @@
 // ── Navigation configuration ──
 // Single source of truth for all Atlas navigation.
-// Used by Sidebar, Breadcrumb, and Search components.
+// Used by the Sidebar and the search palette.
 
 import type { NavigationConfig } from "@/types/navigation";
 
@@ -28,6 +28,10 @@ export const navigationConfig: NavigationConfig = {
     {
       title: "Training",
       items: [
+        {
+          title: "Current Programme",
+          href: "/training/current-programme",
+        },
         {
           title: "Running",
           href: "/running",

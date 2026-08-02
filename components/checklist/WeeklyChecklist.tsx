@@ -10,12 +10,12 @@ interface ChecklistItem {
 }
 
 const DEFAULT_ITEMS: ChecklistItem[] = [
-  { id: "gym-1", label: "Gym Session 1" },
-  { id: "gym-2", label: "Gym Session 2" },
-  { id: "gym-3", label: "Gym Session 3" },
-  { id: "run-zone2", label: "Zone 2 Run (Tue)" },
-  { id: "run-quality", label: "Quality Run (Fri)" },
-  { id: "run-long", label: "Long Run (Sun)" },
+  { id: "gym-1", label: "Gym Session 1 (Mon)" },
+  { id: "run-hard", label: "Hard Run (Tue)" },
+  { id: "gym-2", label: "Gym Session 2 (Wed)" },
+  { id: "run-zone2", label: "Zone 2 Run (Thu)" },
+  { id: "gym-3", label: "Gym Session 3 (Fri)" },
+  { id: "run-long", label: "Long Run (Sat)" },
   { id: "mobility", label: "Mobility (5–10 min daily)" },
   { id: "protein", label: "Protein ≥140 g" },
   { id: "sleep", label: "Sleep ≥7 hours" },

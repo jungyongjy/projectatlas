@@ -27,7 +27,7 @@ export const mdxComponents: MDXComponents = {
   // Semantic HTML overrides for consistent styling
   h1: ({ children, ...props }) => (
     <h1
-      className="text-3xl sm:text-4xl font-bold tracking-tight text-atlas-text-primary mb-6 mt-10"
+      className="text-3xl sm:text-4xl font-bold tracking-tight text-atlas-text-primary mb-8 mt-6"
       {...props}
     >
       {children}
@@ -36,7 +36,7 @@ export const mdxComponents: MDXComponents = {
   h2: ({ children, id, ...props }) => (
     <h2
       id={id}
-      className="text-2xl font-semibold text-atlas-text-primary mt-14 mb-5 pb-2 border-b border-atlas-border scroll-mt-8"
+      className="text-2xl font-semibold text-atlas-text-primary mt-16 mb-6 pb-3 border-b border-atlas-border scroll-mt-10"
       {...props}
     >
       {children}
@@ -45,7 +45,7 @@ export const mdxComponents: MDXComponents = {
   h3: ({ children, id, ...props }) => (
     <h3
       id={id}
-      className="text-xl font-semibold text-atlas-text-primary mt-10 mb-4 scroll-mt-8"
+      className="text-xl font-semibold text-atlas-text-primary mt-12 mb-5 scroll-mt-10"
       {...props}
     >
       {children}
@@ -53,7 +53,7 @@ export const mdxComponents: MDXComponents = {
   ),
   h4: ({ children, ...props }) => (
     <h4
-      className="text-lg font-medium text-atlas-text-primary mt-8 mb-3"
+      className="text-lg font-medium text-atlas-text-primary mt-8 mb-4"
       {...props}
     >
       {children}
@@ -61,7 +61,7 @@ export const mdxComponents: MDXComponents = {
   ),
   p: ({ children, ...props }) => (
     <p
-      className="text-base leading-relaxed text-atlas-text-secondary mb-6 max-w-[72ch]"
+      className="text-base leading-[1.75] text-atlas-text-secondary mb-7 max-w-[72ch]"
       {...props}
     >
       {children}

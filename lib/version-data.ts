@@ -2,6 +2,42 @@ import type { VersionEntry } from "@/types/version";
 
 export const versionHistory: VersionEntry[] = [
   {
+    version: "1.1.0",
+    date: "2026-08-02",
+    summary: "Final refinement pass: canonical programme source of truth, schedule alignment, and documentation polish.",
+    changes: [
+      {
+        type: "added",
+        description: "Introduced the Current Programme page as the single source of truth for Full Body A and Full Body B, supersets, sets, and reps",
+      },
+      {
+        type: "changed",
+        description: "Aligned every handbook page to the final weekly schedule: gym Monday, Wednesday, Friday; hard run Tuesday; easy Zone 2 Thursday; long run Saturday; complete rest Sunday",
+      },
+      {
+        type: "changed",
+        description: "Updated the training philosophy to centre on maximum adaptation with minimum recoverable cost",
+      },
+      {
+        type: "added",
+        description: "Added 22 instructional illustrations across the Exercise Library, mobility, running, and decision engine pages",
+      },
+      {
+        type: "changed",
+        description: "Polished the sidebar hierarchy, active indicators, table of contents, and handbook typography",
+      },
+      {
+        type: "changed",
+        description: "Improved the README with a documentation flow overview",
+      },
+      {
+        type: "removed",
+        description: "Removed dead components and unused UI primitives to keep the codebase lean",
+      },
+    ],
+    notes: "Version 1.1.0 completes the final refinement pass. The training programme is now documented once in the Current Programme page and referenced everywhere else, so the handbook cannot drift from the programme. The schedule, philosophy, and illustrations are aligned with the canonical system.",
+  },
+  {
     version: "1.0.1",
     date: "2026-08-02",
     summary: "Refinement pass: canonical programme alignment, writing standards, and documentation polish.",
@@ -80,7 +116,7 @@ export const versionHistory: VersionEntry[] = [
       },
       {
         type: "added",
-        description: "Exercise Library with 21 individual exercise reference pages with transfer ratings",
+        description: "Exercise Library with 18 individual exercise reference pages with transfer ratings",
       },
       {
         type: "added",

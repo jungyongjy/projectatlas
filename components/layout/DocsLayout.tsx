@@ -39,7 +39,7 @@ export function DocsLayout({ searchIndex, children }: DocsLayoutProps) {
             id="main-content"
             className="flex-1 min-w-0 overflow-y-auto scroll-smooth"
           >
-            <article className="px-4 lg:px-8 py-8 max-w-3xl mx-auto">
+            <article className="px-4 lg:px-8 py-10 lg:py-14 max-w-3xl mx-auto">
               {children}
             </article>
 

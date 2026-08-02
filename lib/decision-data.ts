@@ -23,7 +23,7 @@ export const decisionTrees: { id: string; title: string; description: string; tr
           outcome: {
             recommendation: "Train but reduce intensity and volume. Prioritise easy work.",
             reason: "Significant sleep restriction impairs reaction time, coordination, and perceived effort. Training can still be productive, but high-intensity work carries increased injury risk and reduced adaptation quality.",
-            coachNotes: "If today is a quality run day (Friday intervals/4×4/threshold), swap it for an easy Zone 2 run and do the quality session tomorrow. Gym: reduce load by 10–20% and focus on movement quality over load.",
+            coachNotes: "If today is a hard run day (Tuesday intervals/4×4/threshold), swap it for an easy Zone 2 run and move the hard run to Thursday if you feel recovered. Gym: reduce load by 10–20% and focus on movement quality over load.",
             scientificNotes: "Sleep restriction to 4–5 hours impairs cognitive and physical performance comparably to a blood alcohol concentration of 0.05%. Motor coordination, reaction time, and decision-making are all affected, making high-intensity or technically demanding training riskier.",
           },
         },
@@ -56,11 +56,11 @@ export const decisionTrees: { id: string; title: string; description: string; tr
           },
         },
         {
-          label: "Quality run (Friday intervals, 4×4, or threshold)",
+          label: "Hard run (Tuesday intervals, 4×4, or threshold)",
           outcome: {
-            recommendation: "Do the quality session tomorrow (Saturday) if fresh. Otherwise, skip it.",
-            reason: "Quality sessions drive the most important running adaptations. If you can do it tomorrow without compromising the following week's training, it is worth rescheduling. If rescheduling would push into another hard session or compromise recovery, skip it.",
-            coachNotes: "Check: is tomorrow a rest day or easy day? If yes, do the quality session tomorrow. If tomorrow is already a hard day (gym), skip the quality run, do not double up hard sessions. One missed quality session per month is acceptable. Two or more: review schedule adherence.",
+            recommendation: "Move it to Thursday (swap the easy Zone 2) if fresh. Otherwise, skip it.",
+            reason: "Hard runs drive the most important running adaptations. If you can do it on Thursday without compromising the following week's training, it is worth rescheduling. If you do not feel fresh, skip it rather than forcing a low-quality session.",
+            coachNotes: "Thursday is an easy Zone 2 day, so it is the natural place to reschedule a missed hard run: swap the hard run into Thursday and drop the easy Zone 2. Do not stack it onto a gym day or double up hard sessions. One missed hard run per month is acceptable. Two or more: review schedule adherence.",
           },
         },
         {
@@ -74,7 +74,7 @@ export const decisionTrees: { id: string; title: string; description: string; tr
         {
           label: "Long run",
           outcome: {
-            recommendation: "Do a shorter run (5–7 km) if possible. Otherwise, skip and resume next Sunday.",
+            recommendation: "Do a shorter run (5–7 km) if possible. Otherwise, skip and resume next Saturday.",
             reason: "The long run provides unique endurance adaptations. If you can fit a shorter version, it preserves some of that stimulus. If not, one missed long run has minimal impact; the adaptations from long runs accumulate over months, not individual sessions.",
           },
         },

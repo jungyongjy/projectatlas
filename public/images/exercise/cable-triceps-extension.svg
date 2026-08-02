@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="Cable triceps extension, front view">
+  <rect width="360" height="240" rx="12" fill="#161616"/>
+  <text x="180" y="30" text-anchor="middle" font-family="monospace" font-size="13" fill="#7a7a7a">TRICEPS PUSHDOWN</text>
+  <line x1="180" y1="50" x2="180" y2="205" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M180 50 L 150 62" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <line x1="180" y1="50" x2="210" y2="62" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round"/>
+  <g stroke="#4f8ef7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <circle cx="180" cy="78" r="11"/>
+    <line x1="180" y1="89" x2="180" y2="125"/>
+    <line x1="180" y1="98" x2="163" y2="120"/>
+    <line x1="180" y1="98" x2="197" y2="120"/>
+    <line x1="180" y1="125" x2="180" y2="185"/>
+    <line x1="180" y1="138" x2="167" y2="170"/>
+    <line x1="180" y1="138" x2="193" y2="170"/>
+    <line x1="180" y1="125" x2="158" y2="148"/>
+    <line x1="158" y1="148" x2="158" y2="170"/>
+    <line x1="180" y1="125" x2="202" y2="148"/>
+    <line x1="202" y1="148" x2="202" y2="170"/>
+  </g>
+  <rect x="150" y="168" width="16" height="26" rx="3" fill="none" stroke="#4f8ef7" stroke-width="3"/>
+  <rect x="194" y="168" width="16" height="26" rx="3" fill="none" stroke="#4f8ef7" stroke-width="3"/>
+  <path d="M158 198 L 202 198" stroke="#4f8ef7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M180 205 L 180 218" stroke="#4f8ef7" stroke-width="2" fill="none"/>
+  <polygon points="180,222 175,213 185,213" fill="#4f8ef7"/>
+  <text x="260" y="130" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">press down</text>
+  <text x="180" y="230" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">upper arms stay fixed beside the body</text>
+</svg>

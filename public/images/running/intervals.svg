@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="Six by 400 metre interval pattern on a track">
+  <rect width="360" height="240" rx="12" fill="#161616"/>
+  <text x="180" y="30" text-anchor="middle" font-family="monospace" font-size="13" fill="#7a7a7a">6 × 400 m INTERVALS</text>
+  <ellipse cx="180" cy="130" rx="130" ry="60" fill="none" stroke="#2a2a2a" stroke-width="3"/>
+  <ellipse cx="180" cy="130" rx="100" ry="42" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  <g stroke="#4f8ef7" stroke-width="3" stroke-linecap="round" fill="none">
+    <circle cx="180" cy="72" r="8"/>
+    <circle cx="245" cy="88" r="8"/>
+    <circle cx="285" cy="130" r="8"/>
+    <circle cx="245" cy="172" r="8"/>
+    <circle cx="180" cy="190" r="8"/>
+    <circle cx="115" cy="172" r="8"/>
+    <circle cx="75" cy="130" r="8"/>
+    <circle cx="115" cy="88" r="8"/>
+  </g>
+  <circle cx="180" cy="72" r="10" fill="none" stroke="#4f8ef7" stroke-width="2" opacity="0.5"/>
+  <path d="M180 72 L 245 88 L 285 130 L 245 172 L 180 190 L 115 172 L 75 130 L 115 88 L 180 72" stroke="#4f8ef7" stroke-width="2" stroke-dasharray="5,4" fill="none" opacity="0.6"/>
+  <text x="180" y="60" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">1</text>
+  <text x="245" y="76" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">2</text>
+  <text x="297" y="134" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">3</text>
+  <text x="245" y="186" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">4</text>
+  <text x="168" y="204" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">5</text>
+  <text x="100" y="176" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">6</text>
+  <text x="180" y="228" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a7a7a">recover with 60–90 s easy jog between reps</text>
+</svg>
