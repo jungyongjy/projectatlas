@@ -36,7 +36,7 @@ export const mdxComponents: MDXComponents = {
   h2: ({ children, id, ...props }) => (
     <h2
       id={id}
-      className="text-2xl font-semibold text-atlas-text-primary mt-16 mb-6 pb-3 border-b border-atlas-border scroll-mt-10"
+      className="text-2xl font-semibold text-atlas-text-primary mt-14 mb-5 pb-2 border-b border-atlas-border scroll-mt-10"
       {...props}
     >
       {children}
@@ -45,7 +45,7 @@ export const mdxComponents: MDXComponents = {
   h3: ({ children, id, ...props }) => (
     <h3
       id={id}
-      className="text-xl font-semibold text-atlas-text-primary mt-12 mb-5 scroll-mt-10"
+      className="text-xl font-semibold text-atlas-text-primary mt-10 mb-4 scroll-mt-10"
       {...props}
     >
       {children}
@@ -53,7 +53,7 @@ export const mdxComponents: MDXComponents = {
   ),
   h4: ({ children, ...props }) => (
     <h4
-      className="text-lg font-medium text-atlas-text-primary mt-8 mb-4"
+      className="text-lg font-medium text-atlas-text-primary mt-8 mb-3"
       {...props}
     >
       {children}
@@ -61,7 +61,7 @@ export const mdxComponents: MDXComponents = {
   ),
   p: ({ children, ...props }) => (
     <p
-      className="text-base leading-[1.75] text-atlas-text-secondary mb-7 max-w-[72ch]"
+      className="text-base leading-[1.75] text-atlas-text-secondary mb-6 max-w-[72ch]"
       {...props}
     >
       {children}
@@ -77,17 +77,17 @@ export const mdxComponents: MDXComponents = {
     </a>
   ),
   ul: ({ children, ...props }) => (
-    <ul className="list-disc list-outside mb-6 pl-6 space-y-1.5" {...props}>
+    <ul className="list-disc list-outside mb-6 pl-6 space-y-2" {...props}>
       {children}
     </ul>
   ),
   ol: ({ children, ...props }) => (
-    <ol className="list-decimal list-outside mb-6 pl-6 space-y-1.5" {...props}>
+    <ol className="list-decimal list-outside mb-6 pl-6 space-y-2" {...props}>
       {children}
     </ol>
   ),
   li: ({ children, ...props }) => (
-    <li className="text-base text-atlas-text-secondary leading-relaxed" {...props}>
+    <li className="text-atlas-text-secondary leading-relaxed" {...props}>
       {children}
     </li>
   ),
@@ -126,7 +126,7 @@ export const mdxComponents: MDXComponents = {
     </pre>
   ),
   table: ({ children, ...props }) => (
-    <div className="overflow-x-auto my-6">
+    <div className="overflow-x-auto my-8">
       <table
         className="w-full border-collapse text-sm"
         {...props}
@@ -151,7 +151,7 @@ export const mdxComponents: MDXComponents = {
       {children}
     </td>
   ),
-  hr: (props) => <hr className="border-atlas-border my-8" {...props} />,
+  hr: (props) => <hr className="border-atlas-border my-10" {...props} />,
   strong: ({ children, ...props }) => (
     <strong className="font-semibold text-atlas-text-primary" {...props}>
       {children}
