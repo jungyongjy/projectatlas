@@ -1,21 +1,13 @@
 import { MessageSquareQuote } from "lucide-react";
+import { Callout, type CalloutStyle } from "./Callout";
 
-interface CoachNoteProps {
-  children: React.ReactNode;
-}
+const style: CalloutStyle = {
+  label: "Coach Notes",
+  icon: MessageSquareQuote,
+  color: "border-cyan-500/40 text-cyan-400",
+  bg: "bg-cyan-500/5",
+};
 
-export function CoachNote({ children }: CoachNoteProps) {
-  return (
-    <div className="my-6 rounded-lg border border-cyan-500/30 bg-cyan-500/5 p-5">
-      <div className="flex items-center gap-2 mb-2">
-        <MessageSquareQuote className="h-4 w-4 text-cyan-400 shrink-0" />
-        <span className="text-sm font-semibold text-cyan-400">
-          Coach Notes
-        </span>
-      </div>
-      <div className="text-sm text-atlas-text-secondary leading-relaxed">
-        {children}
-      </div>
-    </div>
-  );
+export function CoachNote({ children }: { children: React.ReactNode }) {
+  return <Callout style={style}>{children}</Callout>;
 }
