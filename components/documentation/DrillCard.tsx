@@ -25,7 +25,7 @@ export function DrillCard({ title, children }: DrillCardProps) {
   return (
     <div className="my-6 rounded-lg border border-atlas-border bg-atlas-surface overflow-hidden">
       <div className="flex items-center gap-2 px-4 py-2.5 bg-atlas-hover/50 border-b border-atlas-border">
-        <ListOrdered className="h-4 w-4 text-atlas-accent shrink-0" />
+        <ListOrdered className="h-4 w-4 text-atlas-accent shrink-0" aria-hidden="true" />
         <h4 className="text-sm font-semibold text-atlas-text-primary">{title}</h4>
       </div>
       <dl className="px-4">{children}</dl>

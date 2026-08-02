@@ -75,7 +75,7 @@ export const mdxComponents: MDXComponents = {
   a: ({ children, href, ...props }) => (
     <a
       href={href}
-      className="text-atlas-accent underline-offset-2 hover:underline transition-colors"
+      className="text-atlas-accent underline-offset-2 hover:underline transition-colors break-words"
       {...props}
     >
       {children}
