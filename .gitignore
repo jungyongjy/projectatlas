@@ -23,6 +23,9 @@
 # misc
 .DS_Store
 *.pem
+
+# raw source images (served copies live in /public/images)
+/pictures/
 *.Rhistory
 *.Rproj
 .playwright-mcp
