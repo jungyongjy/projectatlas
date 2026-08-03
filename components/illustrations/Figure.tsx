@@ -17,10 +17,6 @@ import { HammerCurlFigure } from "./figures/hammer-curl";
 import { PallofPressFigure } from "./figures/pallof-press";
 import { DeclineCrunchFigure } from "./figures/decline-crunch";
 import { DecisionTreeFigure } from "./figures/decision-tree";
-import { AnklesFigure } from "./figures/ankles";
-import { CalfStretchFigure } from "./figures/calf-stretch";
-import { Hip9090Figure } from "./figures/hip-90-90";
-import { ThoracicRotationFigure } from "./figures/thoracic-rotation";
 import { WarmUpRoutineFigure } from "./figures/warm-up-routine";
 import { RecoveryMobilityFigure } from "./figures/recovery-mobility";
 import { RunningGaitFigure } from "./figures/running-gait";
@@ -58,10 +54,6 @@ const registry: Record<string, FigureComponent> = {
   pallofPress: PallofPressFigure,
   declineCrunch: DeclineCrunchFigure,
   decisionTree: DecisionTreeFigure,
-  ankles: AnklesFigure,
-  calfStretch: CalfStretchFigure,
-  hip9090: Hip9090Figure,
-  thoracicRotation: ThoracicRotationFigure,
   warmUpRoutine: WarmUpRoutineFigure,
   recoveryMobility: RecoveryMobilityFigure,
   runningGait: RunningGaitFigure,
@@ -74,17 +66,30 @@ const registry: Record<string, FigureComponent> = {
 };
 
 interface FigureProps {
-  name: keyof typeof registry | (string & {});
+  /** Registered SVG figure name. Ignored when `src` is provided. */
+  name?: keyof typeof registry | (string & {});
+  /** Photo path (from /public). When present, renders a photo instead of the registered SVG figure. */
+  src?: string;
   alt?: string;
   caption?: string;
 }
 
-export function Figure({ name, alt, caption }: FigureProps) {
-  const Component = registry[name as string];
-  if (!Component) return null;
+export function Figure({ name, src, alt, caption }: FigureProps) {
+  const Component = name ? registry[name as string] : undefined;
+  const body = src ? (
+    // eslint-disable-next-line @next/next/no-img-element -- static varied-aspect MDX illustrations; no next/image pipeline in this codebase
+    <img
+      src={src}
+      alt={alt ?? caption ?? ""}
+      loading="lazy"
+      className="rounded-xl border border-atlas-border w-full h-auto"
+    />
+  ) : Component ? (
+    <Component alt={alt} />
+  ) : null;
   return (
     <figure className="my-10 w-full max-w-xl mx-auto">
-      <Component alt={alt} />
+      {body}
       {caption && (
         <figcaption className="mt-3 text-center text-sm text-atlas-text-muted">
           {caption}
