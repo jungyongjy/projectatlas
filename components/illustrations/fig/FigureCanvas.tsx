@@ -8,7 +8,7 @@ interface FigureCanvasProps {
 
 export function FigureCanvas({ title, alt, children }: FigureCanvasProps) {
   return (
-    <figure className="my-10 w-full max-w-xl mx-auto">
+    <div className="my-10 w-full max-w-xl mx-auto">
       <div className="rounded-xl border border-atlas-border bg-atlas-surface overflow-hidden">
         <svg
           viewBox={`0 0 ${FIG.viewBox.w} ${FIG.viewBox.h}`}
@@ -28,6 +28,6 @@ export function FigureCanvas({ title, alt, children }: FigureCanvasProps) {
           {children}
         </svg>
       </div>
-    </figure>
+    </div>
   );
 }
